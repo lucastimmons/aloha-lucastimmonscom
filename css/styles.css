@@ -1,0 +1,294 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-size:62.5%; }
+
+section.hero {
+	padding:150px 0;
+	background-image:url('../img/bg.png');
+	background-repeat: repeat;
+	background-attachment:fixed;
+	text-align:center;
+	z-index:10;
+}
+
+section.hero h1 {
+	margin:30px 0;
+	font-family:'Droid Sans', sans-serif;
+	font-weight:800;
+	text-transform:uppercase;
+	font-size:5em;
+	line-height:0.9em;
+	color:bisque;
+}
+
+span.me {
+	display:block;
+	width:150px;
+	height:150px;
+	margin:-78px auto 0;
+	border-radius:500px;
+	background-image:url('../img/me.jpg');
+	background-position:center;
+	background-size:cover;
+	z-index:20;
+}
+
+section.intro {
+	padding:50px 0;
+}
+
+section.intro h2 {
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	text-align:center;
+	line-height:1.4em;
+}
+
+section.intro strong {
+	font-weight:500;
+	color:#cdedee;
+	background:#14233d;
+	padding:3px 10px;
+	font-size:90%;
+}
+
+section.viz {
+	padding:500px 0;
+	background-image:url('../img/viz.jpg');
+	background-position:center center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+section.viz h2 {
+	display:block;
+	text-align:center;
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	color:#cdedee;
+	font-size:3em;
+	line-height:1.1em;
+	padding:20px;
+	background:rgba(20,36,62,0.83);
+}
+
+section.mobile {
+	padding:500px 0;
+	background-image:url('../img/words.jpg');
+	background-position:center;
+	background-attachment:fixed;
+	text-align:center;
+	background-size:cover;
+}
+
+section.mobile h2 {
+	display:block;
+	text-align:center;
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	color:#cdedee;
+	font-size:3em;
+	line-height:1.1em;
+	padding:20px;
+	background:rgba(20,36,62,0.83);
+}
+
+section.maps {
+	padding:500px 0;
+	background-image:url('../img/maps.jpg');
+	background-position:center;
+	background-attachment:fixed;
+	text-align:center;
+	background-size:cover;
+}
+
+section.maps h2 {
+	display:block;
+	text-align:center;
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	color:#cdedee;
+	font-size:3em;
+	line-height:1.1em;
+	padding:20px;
+	background:rgba(20,36,62,0.83);
+}
+
+section.tools {
+	padding:500px 0;
+	background-image:url('../img/tools.png');
+	background-position:center;
+	background-attachment:fixed;
+	text-align:center;
+	background-size:cover;
+}
+
+section.tools h2 {
+	display:block;
+	text-align:center;
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	color:#cdedee;
+	font-size:3em;
+	line-height:1.1em;
+	padding:20px;
+	background:rgba(20,36,62,0.83);
+}
+
+section.games {
+	padding:500px 0;
+	background-image:url('../img/games.jpg');
+	background-position:center;
+	background-attachment:fixed;
+	text-align:center;
+	background-size:cover;
+}
+
+section.games h2 {
+	display:block;
+	text-align:center;
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	color:#cdedee;
+	font-size:3em;
+	line-height:1.1em;
+	padding:20px;
+	background:rgba(20,36,62,0.83);
+}
+
+section.coding {
+	padding:100px 0;
+	background-image:url('../img/code.jpg');
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	color:#fff;
+}
+
+section.coding h2 {
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	font-size:8em;
+	line-height:1.1em;
+}
+
+section.coding h3 {
+	font-family:'Droid Sans', sans-serif;
+	margin:100px 0;
+	font-weight:600;
+	font-size:5em;
+	line-height:1.1em;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+section.coding h3 i {
+	margin:0 5px;
+	color:red;
+}
+
+section.coding p {
+	font-family:'Droid Sans', sans-serif;
+	margin:1.2em;
+	font-size:2.2em;
+	font-weight:200;
+	line-height:1.8em;
+}
+
+section.examples {
+	padding:100px 0;
+	background-image:url('../img/green.png');
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	color:#14233d;
+}
+
+section.examples h2 {
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	font-size:8em;
+	line-height:1.1em;
+}
+
+section.examples h3 {
+	font-family:'Droid Sans', sans-serif;
+	margin:100px 0;
+	font-weight:600;
+	font-size:5em;
+	line-height:1.1em;
+	text-transform:uppercase;
+	margin:.5em;
+}
+
+section.examples h3 i {
+	margin:0 5px;
+	color:red;
+}
+
+section.examples h4 {
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	font-size:3em;
+	line-height:1.1em;
+	margin:.4em;
+}
+
+section.examples h5 {
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	font-size:2.25em;
+	line-height:1.1em;
+	margin:.5em;
+}
+
+section.examples p {
+	font-family:'Droid Sans', sans-serif;
+	margin:1.5em;
+	font-size:1.5em;
+	font-weight:200;
+	line-height:1.8em;
+}
+
+
+section.contact {
+	padding:50px 0;
+	text-align:center;
+}
+
+section.contact h2 {
+	font-family:'Droid Sans', sans-serif;
+	font-weight:200;
+	text-align:center;
+	font-size:8em;
+	line-height:1.4em;
+	color:#14233d;
+}
+
+section.contact p {
+	font-family:'Droid Sans', sans-serif;
+	margin:1.5em 0;
+	font-size:2.2em;
+	font-weight:200;
+	line-height:1.8em;
+}
+
+section.contact a {
+	background:#14233d;
+	color:#cdedee;
+	text-decoration:none;
+	padding:2px 10px;
+}
+
+section.contact a.resume {
+	display:block;
+	padding:10px 20px;
+	background:#14233d;
+	color:#cdedee;
+	text-transform:uppercase;
+	font-weight:500;
+	letter-spacing:0.1em;
+	border-radius:3px;
+}
+
